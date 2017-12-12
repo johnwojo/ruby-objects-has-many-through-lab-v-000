@@ -5,6 +5,7 @@ class Song
     @name = name
     @genre = genre
     @artist = artist
+    genre.add_song(self)
   end
 
   def artist
