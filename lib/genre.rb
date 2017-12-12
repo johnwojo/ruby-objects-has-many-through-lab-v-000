@@ -10,7 +10,7 @@ class Genre
     @songs
   end
 
-  def
+  def artists
   end
 
 end
