@@ -3,3 +3,4 @@ class Genre
     @name = name
     @genre = genre
   end
+end
