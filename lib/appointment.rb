@@ -8,7 +8,7 @@ class Appointment
 
   def doctor
     @doctor
-    doctor.appointment = self.
+    doctor.appointment = self
   end
 
 end
