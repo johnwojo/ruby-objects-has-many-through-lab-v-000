@@ -1,5 +1,5 @@
 class Genre
-  def initialize(name,genre)
+  def initialize(name)
     @name = name
     @genre = genre
   end
