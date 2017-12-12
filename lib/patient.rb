@@ -10,6 +10,7 @@ class Patient
     @appointments << appointment
     @appointments.collect do |appointment|
       appointment.patient = self
+    end
   end
 
   def doctors
