@@ -7,7 +7,7 @@ class Appointment
   end
 
   def doctor
-    self.doctor
+    @doctor
   end
 
 end
