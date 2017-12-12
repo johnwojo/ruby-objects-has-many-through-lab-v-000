@@ -4,4 +4,6 @@ class Patient
     @name = name
   end
 
+
+
 end
