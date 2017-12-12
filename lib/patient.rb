@@ -6,6 +6,10 @@ class Patient
     @appointments = []
   end
 
+  def appointment(appointment)
+    @appointments
+  end
+
   def add_appointment(appointment)
     @appointments << appointment
     @appointments.collect do |appointment|
