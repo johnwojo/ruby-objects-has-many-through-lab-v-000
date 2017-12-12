@@ -5,6 +5,7 @@ class Appointment
     @name = name
     @doctor = doctor
     @patient = patient
+    patient.add_appointment(self)
   end
 
   def doctor
